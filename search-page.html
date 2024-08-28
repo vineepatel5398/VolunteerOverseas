@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Search-Page</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="css/nouislider.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="secondary-header">
+			<nav class="navbar navbar-light navbar-expand-md navbar-light bg-transparent header-navbar">
+				<a class="navbar-brand" href="#" title="Company Logo">
+					<i><img src="images/logo_1.png" class="defaul-image" alt="Company logo"></i>
+					<i><img src="images/logo.png" class="scroll-image" alt="Company Logo"></i>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>		
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#" title="Hows it work">HOW IT WORKS<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" title="Contact Us">CONTACT US</a>
+						</li>
+					</ul>
+					<button class="btn btn-outline-danger my-2 my-sm-0 header-login-button" type="submit">Login</button>
+				</div>
+			</nav>
+		</header>
+
+		<main class="search">
+			<section class="filter-form">
+				<form>
+
+					<div class="mobile-view">
+						<div class="filter-details">
+							<p><a href="#">Volunteer</a> in <a href="#">Combodia</a> for <a href="#">Animal Conservation</a></p>
+							<button type="button" class="btn btn-info edit-button"></button>
+						</div>
+						<div class="filter-button">
+							<div class="form-group">
+								<button type="button" class="btn search-button">
+									<i class="desktop">More filters</i>
+									<span class="badge badge-info">4</span>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="filter-row">
+
+						<div class="cause">
+							<label class="label" for="cause">Cause</label>
+							<div class="custom-control custom-checkbox checkbox-wrapper">
+								<input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+								<label class="custom-control-label" for="customCheck1">Volunteer</label>
+							</div>
+							<div class="custom-control custom-checkbox checkbox-wrapper">
+								<input type="checkbox" class="custom-control-input" id="customCheck2">
+								<label class="custom-control-label" for="customCheck2">Teach</label>
+							</div>
+							<div class="custom-control custom-checkbox checkbox-wrapper">
+								<input type="checkbox" class="custom-control-input" id="customCheck3">
+								<label class="custom-control-label" for="customCheck3">Intern</label>
+							</div>
+						</div>
+
+						<div class="country">
+							<div class="form-group">
+								<label class="label" for="country">Country</label>
+								<input type="text" class="form-control" placeholder="Search Country">
+							</div>
+						</div>
+
+						<div class="activity">
+							<div class="form-group">
+								<label class="label" for="activity">Activity</label>
+								<select class="form-control custom_dropdown	">
+									<option class="active">Animal conversation</option>
+									<option>Dental care</option>
+									<option>Animal care</option>
+									<option>Medical support</option>
+									<option>Volunteering</option>
+									<option>Teach english abroad</option>
+									<option>Child care</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="filter-mobile-button">
+							<div class="form-group">
+								<button type="button" class="btn btn-info">
+									Submit
+								</button>
+							</div>
+						</div>
+						
+
+						<div class="filter-button">
+							<div class="form-group">
+								<button type="button" class="btn search-button hidden-button">
+									<i class="desktop">More filters</i>
+									<i class="tablet">...</i>
+									<span class="badge badge-info">4</span>
+								</button>
+							</div>
+						</div>
+
+					</div> 		 
+					
+				</form>
+				<div class="more-filters">
+
+					<div class="close-button"></div>
+					<div class="row">
+						
+						<div class="col-xl-4 filter-range">
+							<form>
+								<div class="label">
+									<p class="duration">Start date(range)</p>
+									<a href="#"><p class="reset">Reset</p></a>
+								</div>
+								<div class="form-group range">
+									<select class="form-control custom_dropdown	month">
+										<option class="active hidden-option">month</option>
+										<option>January</option>
+										<option>February</option>
+										<option>March</option>
+										<option>April</option>
+										<option>May</option>
+										<option>June</option>
+										<option>July</option>
+										<option>August</option>
+										<option>September</option>
+										<option>October</option>
+										<option>November</option>
+										<option>December</option>
+									</select>
+									
+									<select class="form-control custom_dropdown	days">
+										<option class="active hidden-option">dd</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+										<option>17</option>
+										<option>18</option>
+										<option>19</option>
+										<option>20</option>
+										<option>21</option>
+										<option>22</option>
+										<option>23</option>
+										<option>24</option>
+										<option>25</option>
+										<option>26</option>
+										<option>27</option>
+										<option>28</option>
+										<option>29</option>
+										<option>30</option>
+										<option>31</option>
+									</select>
+									
+									<select class="form-control custom_dropdown">
+										<option class="active hidden-option">yyyy</option>
+										<option>2000</option>
+										<option>2001</option>
+										<option>2002</option>
+										<option>2003</option>
+										<option>2004</option>
+										<option>2005</option>
+										<option>2006</option>
+										<option>2007</option>
+										<option>2008</option>
+										<option>2009</option>
+										<option>2010</option>
+										<option>2011</option>
+										<option>2012</option>
+										<option>2013</option>
+										<option>2014</option>
+										<option>2015</option>
+										<option>2016</option>
+										<option>2017</option>
+										<option>2018</option>
+									</select>
+									
+									<em>-</em>
+								</div>
+								<div class="form-group range">
+									<select class="form-control custom_dropdown	month">
+										<option class="active hidden-option">month</option>
+										<option>January</option>
+										<option>February</option>
+										<option>March</option>
+										<option>April</option>
+										<option>May</option>
+										<option>June</option>
+										<option>July</option>
+										<option>August</option>
+										<option>September</option>
+										<option>October</option>
+										<option>November</option>
+										<option>December</option>
+									</select>
+									
+									<select class="form-control custom_dropdown	days">
+										<option class="active hidden-option">dd</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+										<option>17</option>
+										<option>18</option>
+										<option>19</option>
+										<option>20</option>
+										<option>21</option>
+										<option>22</option>
+										<option>23</option>
+										<option>24</option>
+										<option>25</option>
+										<option>26</option>
+										<option>27</option>
+										<option>28</option>
+										<option>29</option>
+										<option>30</option>
+										<option>31</option>
+									</select>
+									
+									<select class="form-control custom_dropdown">
+										<option class="active hidden-option">yyyy</option>
+										<option>2000</option>
+										<option>2001</option>
+										<option>2002</option>
+										<option>2003</option>
+										<option>2004</option>
+										<option>2005</option>
+										<option>2006</option>
+										<option>2007</option>
+										<option>2008</option>
+										<option>2009</option>
+										<option>2010</option>
+										<option>2011</option>
+										<option>2012</option>
+										<option>2013</option>
+										<option>2014</option>
+										<option>2015</option>
+										<option>2016</option>
+										<option>2017</option>
+										<option>2018</option>
+									</select>
+								</div>
+							</form>
+						</div>
+
+						<div class="col-xl-4 filter-duration">
+							<div class="time-duration">
+								<form>
+									<div class="label">
+										<p class="duration">Duration</p>
+										<a href="#"><p class="reset">Reset</p></a>
+									</div>
+									
+									<div class="weeks">							
+										<p class="range-duration">1week - 10weeks</p>
+									</div>
+									
+									<div id="slider"></div>
+								</form>
+							</div>
+						</div>
+
+						<div class="col-xl-4 filter-age">
+							<form>
+								<div class="label">
+									<p class="duration">Minimum Age</p>
+								</div>
+
+								<div class="form-group age">
+									<select class="form-control custom_dropdown	">
+										<option class="active hidden-option">--</option>
+										<option>1-5 years old</option>
+										<option>6-8 years old</option>
+										<option>9-12 years old</option>
+										<option>13-16 years old</option>
+										<option>17-20 years old</option>
+										<option>21-25 years old</option>
+										<option>26-30 years old</option>
+										<option>31-35 years old</option>
+										<option>36-40 years old</option>
+									</select>
+								</div>
+							</form>
+						</div>
+
+					</div>
+					<div class="filter-custom-button">	
+						<button type="button" class="btn btn-info more-filter-button">See results</button>
+					</div>
+				</div>
+			</section>
+			<section class="sort">
+				<p>329 Results</p>
+				<div class="label">
+					<label for="sorting" class="sorting">Sort by:</label>
+					<select class="form-control custom_dropdown	">
+						<option class="active">Relevancy</option>
+						<option>Country</option>
+						<option>Needs</option>
+						<option>Visited</option>
+					</select>
+				</div>
+			</section>
+			<section class="slide">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>medical volunteering</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>						
+							</div>		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>						
+							</div>		
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">	
+						<div class="inner-span">
+							<span>lorem ipsum</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo02.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo02.jpg"></i>
+								</a>
+							</div>				    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>	
+
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>dolor sit</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo03.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo03.jpg"></i>
+								</a>
+							</div>			    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="slide">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>amet</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo04.jpg"></i>
+								</a>						
+							</div>		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo04.jpg"></i>
+								</a>						
+							</div>		
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">	
+						<div class="inner-span">
+							<span>medical volunteering</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo05.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo05.jpg"></i>
+								</a>
+							</div>				    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>	
+
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>amet</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>
+							</div>			    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="slide">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>lorem ipsum</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo02.jpg"></i>
+								</a>						
+							</div>		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo02.jpg"></i>
+								</a>						
+							</div>		
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">	
+						<div class="inner-span">
+							<span>dolor sit</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo07.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo07.jpg"></i>
+								</a>
+							</div>				    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>	
+
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>medical volunteering</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>
+							</div>			    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="slide">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>dolor sit</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo03.jpg"></i>
+								</a>						
+							</div>		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo03.jpg"></i>
+								</a>						
+							</div>		
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">	
+						<div class="inner-span">
+							<span>medical volunteering</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>
+							</div>				    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>	
+
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>lorem ipsum</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo05.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo05.jpg"></i>
+								</a>
+							</div>			    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="slide">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>amet</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo02.jpg"></i>
+								</a>						
+							</div>		
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo02.jpg"></i>
+								</a>						
+							</div>		
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">	
+						<div class="inner-span">
+							<span>dolor sit</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo04.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo04.jpg"></i>
+								</a>
+							</div>				    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>	
+
+					<div class="col-md-4">
+						<div class="inner-span">
+							<span>lorem ipsum</span>
+						</div>
+						<div class="owl-carousel owl-theme owl-carousel-search">
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<i><img src="images/photo01.jpg"></i>
+								</a>
+							</div>			    
+						</div>
+						<div class="search-details">
+							<a href="#">
+								<h6>Volunteer with Tigers</h6>
+							</a>
+							<div>
+								<i><img src="images/volunteer-logo01.png"></i>
+								<span>Love Volunteers</span>
+							</div>
+							<p>$215/week  <em>.</em>  1-12 weeks duration</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<nav aria-label="paginaton">
+					<ul class="pagination pagination-md">
+						<li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li><span class="pagination-ellipsis">&hellip;</span></li>
+						<li class="page-item"><a class="page-link" href="#">12</a></li>
+					</ul>
+				</nav>
+			</section>
+			
+		</main>
+	</div>
+
+	<footer>
+		<a href="#">
+			<i><img src="images/logo_1.png"></i>
+		</a>
+		<ul>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>
+	</footer>
+	<script src="js/nouislider.js"></script>
+	<script src="js/main.js"></script>
+	
+	<script type="text/javascript">
+		var slider = document.getElementById('slider');
+		noUiSlider.create(slider, {
+		    start: [2, 8],
+		    connect: true,
+		    range: {
+		        'min': 1,
+		        'max': 10
+		    }
+		});</script>
+</body>
+</html>
